@@ -12,6 +12,6 @@ int main(void)
 	{
 		putchar (i);
 	}
-	putchar('');
+	putchar(' ');
 	return (0);
 }
