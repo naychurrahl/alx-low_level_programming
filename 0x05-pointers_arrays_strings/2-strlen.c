@@ -17,6 +17,6 @@ int _strlen(int *s)
 		{
 			--i;
 		}
-		return (i);
 	}
+	return (i);
 }
