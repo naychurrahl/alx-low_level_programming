@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen - returns length of an array
+ * _puts - returns length of an array
  *
  * @s: pointer
  *
