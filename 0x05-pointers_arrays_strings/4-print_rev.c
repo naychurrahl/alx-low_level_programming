@@ -1,20 +1,21 @@
 #include "main.h"
 
 /**
- * print_rev - returns length of an array
+ * print_rev - print a string, in reverse, followed by a new line
+ * @s: the string to print
  *
- * @s: pointer
- *
- * Return: (0)
+ * Return: void
  */
 void print_rev(char *s)
 {
-	if (s)
-	{
-		while (*s)
-		{
-			_putchar(*s--);
-		}
-		_putchar('\n');
-	}
+char *t = s;
+
+if (s)
+{
+while (*t)
+++t;
+while (s < t--)
+_putchar(*t);
+_putchar('\n');
+}
 }
