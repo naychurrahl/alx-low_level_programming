@@ -15,7 +15,7 @@ int _strlen(int *s)
 	{
 		while (*(s + i))
 		{
-			--i;
+			++i;
 		}
 	}
 	return (i);
