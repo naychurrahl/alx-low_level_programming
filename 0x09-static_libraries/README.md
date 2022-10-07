@@ -1,1 +1,1 @@
-Static libraries, a flavour to C
+Static libraries
