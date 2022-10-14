@@ -1,0 +1,1 @@
+Variadic? More like Normadic
